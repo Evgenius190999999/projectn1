@@ -1,0 +1,87 @@
+*, *::after, *::before
+    box-sizing: border-box
+
+$firts-color: #405063
+$second-color: #818D9C
+
+body
+    font-family: 'Roboto', sans-serif
+
+.container
+    width: 1048px
+    margin: 0 auto
+
+.wrapper
+    background-image: url('/img/Illustration.png')
+    background-repeat: no-repeat
+    background-size: auto
+    background-position: right 0 top 0
+    height: 853px
+
+.header-wrapper
+    position: sticky
+    top: 0px
+
+.header
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding-top: 32px
+
+.navigation
+    display: flex
+    li
+        margin-right: 40px
+        font-size: 15px
+        color: $firts-color
+        cursor: pointer
+        &:last-child
+            margin-right: 0px
+
+.open-modal
+    width: 144px
+    height: 43px
+    background: #489AFF
+    border-radius: 500px
+    color: #FFFFFF
+    line-height: 16px
+    text-align: center
+    text-transform: uppercase
+    border: none
+    cursor: pointer
+
+.firts-section
+    height: 100vh
+    &__wrapper
+        padding-top: 76px
+        width: 420px
+    &__hello
+        margin-bottom: 12px
+    &__title
+        color: $firts-color
+        font-size: 36px
+        font-weight: 400
+        margin-bottom: 10px
+    &__description
+        color: $second-color
+        font-size: 15px
+        font-weight: 300
+        margin-bottom: 21px
+    &__ul--description
+        color: $firts-color
+        font-size: 15px
+        font-weight: 400
+        margin-bottom: 8px
+    &__ul
+        margin-bottom: 19px
+        li
+            list-style: disc
+            list-style-position: inside
+            color: $second-color
+            font-size: 14px
+            font-weight: 300
+            margin-bottom: 15px
+            &:last-child
+                margin-bottom: 0px
+            &::marker
+                background: #489AFF

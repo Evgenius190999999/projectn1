@@ -1,0 +1,37 @@
+*, *::after, *::before
+    box-sizing: border-box
+
+$firts-color: #405063
+
+body
+    font-family: 'Roboto', sans-serif
+
+.container
+    width: 1048px
+    margin: 0 auto
+
+.header-wrapper
+    position: relative
+
+.header
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding-top: 32px
+    position: sticky
+
+.navigation
+    display: flex
+    li
+        margin-right: 40px
+        font-size: 15px
+        color: $firts-color
+        &:last-child
+            margin-right: 0px
+
+.open-modal
+    width: 144px
+    height: 43px
+    background: #489AFF
+    border-radius: 500px
+    color: #FFFFFF

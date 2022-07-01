@@ -1,0 +1,186 @@
+*, *::after, *::before
+    box-sizing: border-box
+
+$firts-color: #405063
+$second-color: #818D9C
+
+body
+    font-family: 'Roboto', sans-serif
+
+.container
+    width: 1048px
+    margin: 0 auto
+
+.wrapper
+    background-image: url('/img/Illustration.png')
+    background-repeat: no-repeat
+    background-size: auto
+    background-position: right 0 top 0
+
+.header-wrapper
+    position: sticky
+    top: 0px
+
+.header
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding-top: 32px
+
+.navigation
+    display: flex
+    li
+        margin-right: 40px
+        font-size: 15px
+        color: $firts-color
+        cursor: pointer
+        &:last-child
+            margin-right: 0px
+
+.button
+    width: 144px
+    height: 43px
+    background: #489AFF
+    border-radius: 500px
+    color: #FFFFFF
+    line-height: 16px
+    text-align: center
+    text-transform: uppercase
+    border: none
+    cursor: pointer
+
+.firts-section
+    height: 90vh
+    &__wrapper
+        padding-top: 76px
+        width: 420px
+    &__hello
+        margin-bottom: 12px
+    &__title
+        color: $firts-color
+        font-size: 36px
+        font-weight: 400
+        margin-bottom: 10px
+    &__description
+        color: $second-color
+        font-size: 15px
+        font-weight: 300
+        margin-bottom: 21px
+    &__ul--description
+        color: $firts-color
+        font-size: 15px
+        font-weight: 400
+        margin-bottom: 8px
+    &__ul
+        margin-bottom: 19px
+        li
+            list-style: disc
+            list-style-position: inside
+            color: $second-color
+            font-size: 14px
+            font-weight: 300
+            margin-bottom: 15px
+            &:last-child
+                margin-bottom: 0px
+            &::marker
+                color: #489AFF
+    &__post-description
+        color: $second-color
+        font-size: 15px
+        font-weight: 300
+
+.second-section
+    text-align: center
+    position: relative
+    &__top-block
+        margin-bottom: 95px
+    &__top-hr
+        max-width: 870px
+        border: 0.5px solid #E3E8EF
+        margin-bottom: 27px
+    &__title
+        color: $second-color
+        font-size: 15px
+        font-weight: 300
+        margin-bottom: 16px
+    &__bottom-hr
+        max-width: 870px
+        border: 0.5px solid #E3E8EF
+    &__middle-block
+        display: flex
+        align-items: center
+        justify-content: space-around
+        margin-bottom: 160px
+    &__bottom-block
+        background: #354A62
+        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1)
+        border-radius: 8px
+
+.register
+    width: 220px
+
+.middle-block__left
+    width: 390px
+    &-img
+        position: absolute
+        top: 260px
+        z-index: 2
+        left: 40px
+
+.middle-block__right
+    max-width: 447px
+    text-align: start
+    &-img
+        margin-bottom: 11px
+    &-title
+        color: $firts-color
+        font-size: 36px
+        font-weight: 400
+        margin-bottom: 8px
+    &-descrition
+        color: $second-color
+        font-size: 15px
+        font-weight: 300
+        margin-bottom: 9px
+
+.bottom-block__rate
+    padding: 40px
+    &-top
+        display: flex
+        align-items: center
+        justify-content: space-between
+        &-left
+            max-width: 533px
+            text-align: start
+    &-img
+        margin-bottom: 9px
+    &-title
+        font-size: 30px
+        font-weight: 400
+        color: #FFFFFF
+        margin-bottom: 8px
+    &-description
+        font-size: 15px
+        color: #C4CCD6
+        font-weight: 300
+    &-top-right
+        display: flex
+        align-items: center
+        width: 273px
+
+.circle
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 116px
+    width: 116px
+    border: 4px solid #283C54
+    border-radius: 50%
+    margin-right: 34px
+    &:last-child
+        margin-right: 0px
+    &::after
+        z-index: 100
+        border: 4px solid #C78FF9
+        transform: rotate(91.48deg)
+        border-radius: 50%

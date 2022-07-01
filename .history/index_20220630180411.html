@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/33ab42410f.js" crossorigin="anonymous"></script>
+    <title>Project N1</title>
+</head>
+
+<body>
+    <main class="wrapper">
+        <header class="header-wrapper">
+            <div class="header container">
+                <div class="header-logo">
+                    <img src="./img/Logo.svg" alt="Logo">
+                </div>
+                <nav class="header-nav">
+                    <ul class="navigation">
+                        <li>Это меню</li>
+                        <li>Должно</li>
+                        <li>Быть</li>
+                        <li>Закрепленным</li>
+                        <li>При скролле</li>
+                    </ul>
+                </nav>
+                <div class="open-modal">
+                    <button class="button">
+                        Модалка
+                    </button>
+                </div>
+            </div>
+        </header>
+        <section class="firts-section container">
+            <div class="firts-section__wrapper">
+                <div class="firts-section__hello"><img src="./img/hello.svg" alt="Hello"></div>
+                <h2 class="firts-section__title">Привет!</h2>
+                <p class="firts-section__description">Группа компаний Freematiq и MITRA ищет себе клевого верстальщика.
+                    На постоянную работу в офисе или
+                    периодическую работу по удаленке. Хотим предложить тебе вместо скучных тестовых заданий – сверстать
+                    эту страницу.</p>
+                <p class="firts-section__ul--description">В своей работе мы используем:</p>
+                <ul class="firts-section__ul">
+                    <li>HTML5, CSS3</li>
+                    <li>Bootstrap 4</li>
+                    <li>Jade, Pug</li>
+                    <li>Less, SCSS</li>
+                    <li>Иконочные шрифты</li>
+                    <li>SVG иллюстрации</li>
+                </ul>
+                <p class="firts-section__post-description">Не ограничиваем этими технологиями, верстай как удобно.</p>
+            </div>
+        </section>
+        <section class="second-section container">
+            <div class="second-section__top-block">
+                <hr class="second-section__top-hr">
+                <h3 class="second-section__title">Это твое первое задание в нашей компании. Если оно покажется тебе
+                    интересным и его <br> реализация нам понравится – добро пожаловать в команду.</h3>
+                <div class="second-section__icon-wrapper">
+                    <img src="./img/second-icon.svg" alt="Icon">
+                </div>
+                <hr class="second-section__bottom-hr">
+            </div>
+            <div class="second-section__middle-block">
+                <div class="middle-block__left">
+                    <img class="middle-block__left-img" src="./img/group1.png" alt="group1">
+                </div>
+                <div class="middle-block__right">
+                    <img class="middle-block__right-img" src="./img/rocket.svg" alt="Rocket">
+                    <h3 class="middle-block__right-title">Как ускорить процесс</h3>
+                    <p class="middle-block__right-descrition">Чтобы иметь доступ ко всем функциям и возможностям Figma,
+                        которые облегчат и ускорят процесс
+                        верстки, зарегистрируйся и залогинься в системе.</p>
+                    <button class="button register">Зарегистрироваться</button>
+                </div>
+            </div>
+            <div class="second-section__bottom-block">
+                <div class="bottom-block__rate">
+                    <div class="bottom-block__rate-top">
+                        <div class="bottom-block__rate-top-left">
+                            <img class="bottom-block__rate-img" src="./img/rate.svg" alt="rate">
+                            <h3 class="bottom-block__rate-title">Оцени себя</h3>
+                            <p class="bottom-block__rate-description">Попробуй максимально объективно и честно
+                                оценить
+                                свои знания верстки по следующей шкале. И да, её тоже нужно сверстать.</p>
+                        </div>
+                        <div class="bottom-block__rate-top-right">
+                            <div class="circle one">
+                                <svg id="svg" width="116" height="116" viewBox="0 0 120 120">
+                                    <circle cx="60" cy="60" r="54" fill="none" stroke="#283C54" stroke-width="4" />
+                                    <circle class="percent fifty" cx="60" cy="60" r="54" fill="none" stroke="#C78FF9"
+                                        stroke-width="4" pathLength="100" stroke-linecap="round" />
+                                </svg>
+                                <div class="circle__desc">
+                                    <h3>12</h3>
+                                    <p>Лет</p>
+                                </div>
+                            </div>
+                            <div class="circle">
+                                <svg id="svg" width="116" height="116" viewBox="0 0 120 120">
+                                    <circle cx="60" cy="60" r="54" fill="none" stroke="#283C54" stroke-width="4" />
+                                    <circle class="percent-two fifty" cx="60" cy="60" r="54" fill="none"
+                                        stroke="#FFC35A" stroke-width="4" pathLength="100" stroke-linecap="round" />
+                                </svg>
+                                <div class="circle__desc">
+                                    <h3>256</h3>
+                                    <p>Проектов</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-block__scale">
+                    <div class="bottom-block__scale-line">
+                        <div class="bottom-block__scale-outline">
+                            <button class="bottom-block__scale-button"></button>
+                        </div>
+                    </div>
+                    <ul class="bottom-block__scale-ul">
+                        <li>Intern</li>
+                        <li>Junior</li>
+                        <li>Middle</li>
+                        <li>Senior</li>
+                        <li>Lead</li>
+                    </ul>
+                </div>
+        </section>
+        <section class="section-slider">
+            <div class="section-slider__top-block">
+                <img src="./img/handle.svg" alt="Slider Icon">
+                <h3 class="top-block__title">Сверстаешь такой слайдер?</h3>
+                <p class="top-block__desc">Это не так сложно, на самом деле. Сложнее придумать как он будет
+                    адаптироваться. Различные модные
+                    эффекты так же будут оценены по достоинству.</p>
+            </div>
+            <div class="section-slider__slider">
+                <div class="slider__left-block">
+                    <div class="slider__left-block-button-wrapper">
+                        <button class="slider__left-block-button"><svg width="22" height="16" viewBox="0 0 22 16"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.872 0.305065C14.6734 0.113587 14.4078 0.00743013 14.1319 0.00930168C13.856 0.0111732 13.5919 0.120925 13.3959 0.31508C13.1999 0.509235 13.0877 0.772375 13.0832 1.04821C13.0787 1.32405 13.1824 1.59068 13.372 1.79107L18.145 6.56407H1.48701C1.34872 6.5634 1.21168 6.59017 1.0838 6.64281C0.95592 6.69546 0.83975 6.77294 0.74201 6.87077C0.644271 6.9686 0.5669 7.08485 0.514376 7.21278C0.461852 7.3407 0.435218 7.47778 0.436013 7.61607C0.434826 7.75512 0.461092 7.89305 0.513305 8.02194C0.565518 8.15083 0.642651 8.26815 0.740285 8.36718C0.837919 8.46621 0.954135 8.545 1.08227 8.59903C1.21041 8.65306 1.34795 8.68128 1.48701 8.68207H18.144L13.371 13.4411C13.176 13.642 13.0669 13.911 13.0669 14.1911C13.0669 14.4711 13.176 14.7401 13.371 14.9411C13.4688 15.0407 13.5856 15.1199 13.7143 15.1739C13.8431 15.228 13.9814 15.2558 14.121 15.2558C14.2607 15.2558 14.3989 15.228 14.5277 15.1739C14.6565 15.1199 14.7732 15.0407 14.871 14.9411L21.446 8.36607C21.5456 8.26965 21.6248 8.15419 21.6789 8.02655C21.733 7.89891 21.7609 7.7617 21.7609 7.62307C21.7609 7.48443 21.733 7.34722 21.6789 7.21958C21.6248 7.09194 21.5456 6.97648 21.446 6.88007L14.872 0.305065Z"
+                                    fill="white" />
+                            </svg>
+                        </button>
+                        <button class="slider__left-block-button"><svg width="22" height="16" viewBox="0 0 22 16"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.32501 15.243C7.52361 15.4345 7.78926 15.5407 8.06512 15.5388C8.34099 15.5369 8.60517 15.4272 8.80115 15.233C8.99714 15.0389 9.10936 14.7757 9.11382 14.4999C9.11828 14.224 9.01462 13.9574 8.82501 13.757L4.05201 8.98403L20.71 8.98403C20.8482 8.98469 20.9852 8.95796 21.113 8.90538C21.2408 8.85279 21.3569 8.7754 21.4547 8.67768C21.5524 8.57995 21.6298 8.46383 21.6824 8.33601C21.7349 8.2082 21.7617 8.07123 21.761 7.93303C21.7622 7.79397 21.7359 7.65604 21.6837 7.52715C21.6315 7.39826 21.5544 7.28094 21.4567 7.18192C21.3591 7.08289 21.2429 7.0041 21.1147 6.95007C20.9866 6.89603 20.8491 6.86781 20.71 6.86703L4.05301 6.86703L8.82601 2.10803C9.02101 1.90707 9.13007 1.63805 9.13007 1.35803C9.13007 1.07801 9.02101 0.808995 8.82601 0.60803C8.72818 0.508373 8.61146 0.429214 8.48269 0.375175C8.35391 0.321137 8.21566 0.293305 8.07601 0.293305C7.93636 0.293305 7.7981 0.321137 7.66933 0.375175C7.54056 0.429214 7.42384 0.508373 7.32601 0.60803L0.751009 7.18203C0.651392 7.27844 0.572182 7.3939 0.518085 7.52154C0.463989 7.64918 0.436111 7.7864 0.436111 7.92503C0.436111 8.06366 0.463989 8.20088 0.518085 8.32852C0.572182 8.45616 0.651392 8.57162 0.751009 8.66803L7.32501 15.243Z"
+                                    fill="white" />
+                            </svg>
+                        </button>
+                    </div>
+                    <p class="slider__left-block__count">01<span>/ 03</span></p>
+                </div>
+                <div class="slider__right-block">
+                    <div class="cart">
+                        <div class="cart-top">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.9669 6.24733C19.675 3.03407 17.4006 0.702777 14.5543 0.702777C12.658 0.702777 10.9218 1.72322 9.9448 3.3587C8.97667 1.70207 7.31158 0.702393 5.4457 0.702393C2.59977 0.702393 0.325019 3.03368 0.033464 6.24694C0.0103857 6.38888 -0.0842351 7.13584 0.203474 8.35399C0.618113 10.111 1.57586 11.7092 2.97248 12.9746L9.94019 19.2977L17.0275 12.975C18.4241 11.7092 19.3819 10.1114 19.7965 8.35399C20.0842 7.13623 19.9896 6.38926 19.9669 6.24733Z"
+                                    fill="#F26F70" />
+                            </svg>
+                            <img src="./img/shoes1.png" alt="New Balance">
+                        </div>
+                        <div class="cart-bottom">
+                            <svg class="cart-bottom__svg" width="3" height="33" viewBox="0 0 3 33" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="3" height="33" fill="#51BCF8" />
+                            </svg>
+                            <h3>New Balance 840 90s</h3>
+                            <p class="cart-bottom__desc">840 90s Running объединили в себе спортивную эстетику и
+                                необходимый в городском ритме
+                                комфорт.</p>
+                            <p class="cart-bottom__price">10 990 ₽ <span>12 990 ₽</span></p>
+                            <div class="cart-bottom__color">
+                                <p>Цвет:</p>
+                                <ul>
+                                    <li class="circle__active">
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="6" cy="6" r="6" fill="#D45D5E" />
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="6" cy="6" r="6" fill="#518DD5" />
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="6" cy="6" r="6" fill="#E98D4B" />
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <button>+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <div class="cart-top">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.9669 6.24733C19.675 3.03407 17.4006 0.702777 14.5543 0.702777C12.658 0.702777 10.9218 1.72322 9.9448 3.3587C8.97667 1.70207 7.31158 0.702393 5.4457 0.702393C2.59977 0.702393 0.325019 3.03368 0.033464 6.24694C0.0103857 6.38888 -0.0842351 7.13584 0.203474 8.35399C0.618113 10.111 1.57586 11.7092 2.97248 12.9746L9.94019 19.2977L17.0275 12.975C18.4241 11.7092 19.3819 10.1114 19.7965 8.35399C20.0842 7.13623 19.9896 6.38926 19.9669 6.24733Z"
+                                    fill="#D8D8D8" />
+                            </svg>
+                            <img width="195" height="108" src="./img/shoes2.png" alt="New Balance">
+                        </div>
+                        <div class="cart-bottom">
+                            <svg class="cart-bottom__svg" width="3" height="33" viewBox="0 0 3 33" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="3" height="33" fill="#51BCF8" />
+                            </svg>
+                            <h3>New Balance 1500</h3>
+                            <p class="cart-bottom__desc">Встречайте новые расцветки бессмертной классики!</p>
+                            <p class="cart-bottom__price">13 990 ₽ <span>19 990 ₽</span></p>
+                            <div class="cart-bottom__color">
+                                <p>Цвет:</p>
+                                <ul>
+                                    <li class="circle__active">
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="6" cy="6" r="6" fill="#9F548C" />
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="6" cy="6" r="6" fill="#292929" />
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <button>+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <div class="cart-top">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.9669 6.24733C19.675 3.03407 17.4006 0.702777 14.5543 0.702777C12.658 0.702777 10.9218 1.72322 9.9448 3.3587C8.97667 1.70207 7.31158 0.702393 5.4457 0.702393C2.59977 0.702393 0.325019 3.03368 0.033464 6.24694C0.0103857 6.38888 -0.0842351 7.13584 0.203474 8.35399C0.618113 10.111 1.57586 11.7092 2.97248 12.9746L9.94019 19.2977L17.0275 12.975C18.4241 11.7092 19.3819 10.1114 19.7965 8.35399C20.0842 7.13623 19.9896 6.38926 19.9669 6.24733Z"
+                                    fill="#D8D8D8" />
+                            </svg>
+                            <img width="195" height="108" src="./img/shoes3.png" alt="New Balance">
+                        </div>
+                        <div class="cart-bottom">
+                            <svg class="cart-bottom__svg" width="3" height="33" viewBox="0 0 3 33" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="3" height="33" fill="#51BCF8" />
+                            </svg>
+                            <h3>New Balance 997H</h3>
+                            <p class="cart-bottom__desc">В 1991 году New Balance представил миру модель 997, которая
+                                вывела линейку 99X на совершенно новый уровень технологий и эстетики</p>
+                            <p class="cart-bottom__price">10 990 ₽ <span>12 990 ₽</span></p>
+                            <div class="cart-bottom__color">
+                                <p>Цвет:</p>
+                                <ul>
+                                    <li>
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="6" cy="6" r="6" fill="#B779DC" />
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="6" cy="6" r="6" fill="#518DD5" />
+                                        </svg>
+                                    </li>
+                                    <li class="circle__active">
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="6" cy="6" r="6" fill="#97938F" />
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <button>+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <div class="cart-top">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.9669 6.24733C19.675 3.03407 17.4006 0.702777 14.5543 0.702777C12.658 0.702777 10.9218 1.72322 9.9448 3.3587C8.97667 1.70207 7.31158 0.702393 5.4457 0.702393C2.59977 0.702393 0.325019 3.03368 0.033464 6.24694C0.0103857 6.38888 -0.0842351 7.13584 0.203474 8.35399C0.618113 10.111 1.57586 11.7092 2.97248 12.9746L9.94019 19.2977L17.0275 12.975C18.4241 11.7092 19.3819 10.1114 19.7965 8.35399C20.0842 7.13623 19.9896 6.38926 19.9669 6.24733Z"
+                                    fill="#D8D8D8" />
+                            </svg>
+                            <img width="195" height="108" src="./img/shoes4.png" alt="New Balance">
+                        </div>
+                        <div class="cart-bottom">
+                            <svg class="cart-bottom__svg" width="3" height="33" viewBox="0 0 3 33" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="3" height="33" fill="#51BCF8" />
+                            </svg>
+                            <h3>New Balance 247</h3>
+                            <p class="cart-bottom__desc">840 90s Running объединили в себе спортивную эстетику и
+                                необходимый в городском ритме комфорт.</p>
+                            <p class="cart-bottom__price">10 990 ₽ <span>12 990 ₽</span></p>
+                            <div class="cart-bottom__color">
+                                <p>Цвет:</p>
+                                <ul>
+                                    <li class="circle__active">
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="6" cy="6" r="6" fill="#D45D5E" />
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="6" cy="6" r="6" fill="#518DD5" />
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="6" cy="6" r="6" fill="#E98D4B" />
+                                        </svg>
+                                    </li>
+                                </ul>
+                                <button>+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-table container">
+            <div class="section-table__top-block">
+                <img src="./img/spectacled.svg" alt="spectacled">
+                <h3 class="top-block__title">Время таблиц</h3>
+                <p class="top-block__desc">Какой серьезный проект может обойтись без таблиц? Мы не сомневаемся, что ты
+                    умеешь их верстать,
+                    попробуй реализовать такую таблицу.</p>
+            </div>
+            <div class="section-table__bottom-block">
+                <div class="table-wrapper">
+                    <table class="table">
+                        <tr class="table-thead">
+                            <th>&nbsp;</th>
+                            <th class="firts-color">
+                                <div class="table-th__div">
+                                    <h3>Стандартный</h3>
+                                    <p>Это самый стандартный тариф, который подойдет для новых пользователей</p>
+                                </div>
+                            </th>
+                            <th class="second-color">
+                                <div class="table-th__div rocket-two">
+                                    <h3>Стандартный</h3>
+                                    <p>Это самый стандартный тариф, который подойдет для новых пользователей</p>
+                                </div>
+                            </th>
+                            <th class="therd-color">
+                                <div class="table-th__div rocket-three">
+                                    <h3>Стандартный</h3>
+                                    <p>Это самый стандартный тариф, который подойдет для новых пользователей</p>
+                                </div>
+                            </th>
+                        </tr>
+                        <tr class="table-tr">
+                            <td class="main-td">Место на диске</td>
+                            <td class="firts-color">1 GB</td>
+                            <td class="second-color">5 GB</td>
+                            <td class="therd-color">100 GB</td>
+                        </tr>
+                        <tr class="table-tr">
+                            <td class="main-td">Количество проектов</td>
+                            <td class="firts-color">1</td>
+                            <td class="second-color">10</td>
+                            <td class="therd-color">∞</td>
+                        </tr>
+                        <tr class="table-tr">
+                            <td class="main-td">Пользователей в проекте</td>
+                            <td class="firts-color">2</td>
+                            <td class="second-color">5</td>
+                            <td class="therd-color">∞</td>
+                        </tr>
+                        <tr class="table-tr">
+                            <td class="main-td">Интерактивное редактирование</td>
+                            <td class="firts-color">—</td>
+                            <td class="second-color"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_86_32)">
+                                        <path
+                                            d="M15.7657 2.35933C15.4533 2.04689 14.9468 2.04689 14.6343 2.35933L5.04981 11.9439L1.36569 8.2598C1.05328 7.94736 0.546781 7.94739 0.234313 8.2598C-0.0781246 8.5722 -0.0781246 9.0787 0.234313 9.39114L4.48412 13.6409C4.79643 13.9533 5.30331 13.9531 5.6155 13.6409L15.7657 3.4907C16.0781 3.1783 16.0781 2.67177 15.7657 2.35933Z"
+                                            fill="#9570EE" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_86_32">
+                                            <rect width="16" height="16" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg></td>
+                            <td class="therd-color"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_86_32)">
+                                        <path
+                                            d="M15.7657 2.35933C15.4533 2.04689 14.9468 2.04689 14.6343 2.35933L5.04981 11.9439L1.36569 8.2598C1.05328 7.94736 0.546781 7.94739 0.234313 8.2598C-0.0781246 8.5722 -0.0781246 9.0787 0.234313 9.39114L4.48412 13.6409C4.79643 13.9533 5.30331 13.9531 5.6155 13.6409L15.7657 3.4907C16.0781 3.1783 16.0781 2.67177 15.7657 2.35933Z"
+                                            fill="#FF56A9" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_86_32">
+                                            <rect width="16" height="16" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </td>
+                        </tr>
+                        <tr class="table-tr">
+                            <td class="main-td">Техническая поддержка (в сутки)</td>
+                            <td class="firts-color">1 час</td>
+                            <td class="second-color">3 часа</td>
+                            <td class="therd-color">12 часов</td>
+                        </tr>
+                        <tr class="table-tr">
+                            <td class="main-td">Премиум ресурсы</td>
+                            <td class="firts-color">—</td>
+                            <td class="second-color">—</td>
+                            <td class="therd-color"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_86_32)">
+                                        <path
+                                            d="M15.7657 2.35933C15.4533 2.04689 14.9468 2.04689 14.6343 2.35933L5.04981 11.9439L1.36569 8.2598C1.05328 7.94736 0.546781 7.94739 0.234313 8.2598C-0.0781246 8.5722 -0.0781246 9.0787 0.234313 9.39114L4.48412 13.6409C4.79643 13.9533 5.30331 13.9531 5.6155 13.6409L15.7657 3.4907C16.0781 3.1783 16.0781 2.67177 15.7657 2.35933Z"
+                                            fill="#FF56A9" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_86_32">
+                                            <rect width="16" height="16" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </td>
+                        </tr>
+                        <tr class="table-tr">
+                            <td class="main-td">Отключение рекламы</td>
+                            <td class="firts-color">—</td>
+                            <td class="second-color"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_86_32)">
+                                        <path
+                                            d="M15.7657 2.35933C15.4533 2.04689 14.9468 2.04689 14.6343 2.35933L5.04981 11.9439L1.36569 8.2598C1.05328 7.94736 0.546781 7.94739 0.234313 8.2598C-0.0781246 8.5722 -0.0781246 9.0787 0.234313 9.39114L4.48412 13.6409C4.79643 13.9533 5.30331 13.9531 5.6155 13.6409L15.7657 3.4907C16.0781 3.1783 16.0781 2.67177 15.7657 2.35933Z"
+                                            fill="#9570EE" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_86_32">
+                                            <rect width="16" height="16" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg></td>
+                            <td class="therd-color"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_86_32)">
+                                        <path
+                                            d="M15.7657 2.35933C15.4533 2.04689 14.9468 2.04689 14.6343 2.35933L5.04981 11.9439L1.36569 8.2598C1.05328 7.94736 0.546781 7.94739 0.234313 8.2598C-0.0781246 8.5722 -0.0781246 9.0787 0.234313 9.39114L4.48412 13.6409C4.79643 13.9533 5.30331 13.9531 5.6155 13.6409L15.7657 3.4907C16.0781 3.1783 16.0781 2.67177 15.7657 2.35933Z"
+                                            fill="#FF56A9" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_86_32">
+                                            <rect width="16" height="16" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </td>
+                        </tr>
+                        <tr class="table-tr">
+                            <td class="main-td">Приложения для iOS и Android</td>
+                            <td class="firts-color">—</td>
+                            <td class="second-color">—</td>
+                            <td class="therd-color"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_86_32)">
+                                        <path
+                                            d="M15.7657 2.35933C15.4533 2.04689 14.9468 2.04689 14.6343 2.35933L5.04981 11.9439L1.36569 8.2598C1.05328 7.94736 0.546781 7.94739 0.234313 8.2598C-0.0781246 8.5722 -0.0781246 9.0787 0.234313 9.39114L4.48412 13.6409C4.79643 13.9533 5.30331 13.9531 5.6155 13.6409L15.7657 3.4907C16.0781 3.1783 16.0781 2.67177 15.7657 2.35933Z"
+                                            fill="#FF56A9" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_86_32">
+                                            <rect width="16" height="16" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <footer class="footer container">
+            <div class="footer__wrapper">
+                <h3>Всё готово? Высылай нам!</h3>
+                <p>Когда всё будет готово, высылай архив с версткой или ссылку на облачный файл на нашу почту, указав
+                    тему письма “Тестовое задание для верстальщиков”.</p>
+            </div>
+        </footer>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>

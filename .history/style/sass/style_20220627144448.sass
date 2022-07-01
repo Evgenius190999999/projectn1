@@ -1,0 +1,77 @@
+*, *::after, *::before
+    box-sizing: border-box
+
+.header
+    display: flex
+    justify-content: flex-end
+    height: 50px
+
+.header--wrapper
+    display: flex
+    align-items: center
+    margin-right: 60px
+    &__li
+        margin-right: 33px
+        font-size: 20px
+        font-weight: 500
+        color: #000000
+        &:last-child
+            margin-right: 0px
+
+.container
+    max-width: 850px
+    margin: 0 auto
+
+.section--first
+    display: flex
+    align-items: center
+    justify-content: space-between
+    height: 600px
+    &__about-me
+        max-width: 500px
+    &__title
+        font-size: 44px
+        color: #21243D
+        margin-bottom: 40px
+    &__desc
+        font-size: 16px
+        color: #21243D
+        margin-bottom: 40px
+    &__button
+        width: 210px
+        height: 50px
+        background: #FF6464
+        border: none
+        border-radius: 2px
+        font-size: 20px
+        color: #FFFFFF
+
+.section--second
+    background: #EDF7FA
+    margin-bottom: 30px
+    &__wrapper
+        max-height: 400px
+    &__header
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin-bottom: 30px
+        padding-top: 20px
+    &__header-link
+        a
+            text-decoration: none
+            color: #00A8CC
+    &__cart-wrapper
+        display: flex
+        align-items: center
+        justify-content: space-around
+.cart
+    background: #FFFFFF
+    width: 400px
+    height: 295px
+    &__header
+        padding-top: 20px
+        padding-left: 20px
+        color: #21243D
+        font-size: 26px
+        font-weight: 700
